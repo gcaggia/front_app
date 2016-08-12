@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Weather Today</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,700,400' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width">
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Weather Today</title>
+</head>
+<body>
+  <div class="main">
+    <div class="container">
+      <div class="row text-center">
+        <div class="panel panel-default panel-transparent main-block"> 
+          <div class="panel-body">
+            <h1>Weather Today</h1>
+            <p id="dateToday">22 oct 2017</p>
+            <hr />
+            <p>Your Location : <br />
+              <span id="city">Aix-en-Provence</span>,
+              <span id="country">France</span><br />
+            </p>
+            <p>
+              <span id="w-temp">13°C</span> - 
+              <span id="w-cond">Sun</span>
+            </p>
+            <div class="icon-weather">
+
+              <div class="weather icon sun-shower">
+                  <div class="cloud"></div>
+                  <div class="sun">
+                    <div class="rays"></div>
+                  </div>
+                  <div class="rain"></div>
+              </div>
+              
+            </div>
+            
+            <hr />
+            <p>Sunrise : 
+              <span id="sunrise">06h35</span>
+            </p>
+            <p>Sunset : 
+              <span id="sunset">18h55</span>
+            </p>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div> <!-- end Main -->
+  <div class="footer text-center">By <a href="gcaggia.github.com" target="_blank">Guillaume</a></div>
+
+<!-- My Icons Library -->
+<!-- Many Thanks to Josh Bader and Dribbble by kylor -->
+<div class="icon-library" style="display: none;">
+
+    <div id="undef" class="weather icon sun-shower">
+      <div class="cloud"></div>
+      <div class="sun">
+        <div class="rays"></div>
+      </div>
+      <div class="rain"></div>
+    </div>
+
+    <div id="thunderstorm" class="weather icon thunder-storm">
+      <div class="cloud"></div>
+      <div class="lightning">
+        <div class="bolt"></div>
+        <div class="bolt"></div>
+      </div>
+    </div>
+
+    <div id="clouds" class="weather icon cloudy">
+      <div class="cloud"></div>
+      <div class="cloud"></div>
+    </div>
+
+    <div id="snow" class="weather icon flurries">
+      <div class="cloud"></div>
+      <div class="snow">
+        <div class="flake"></div>
+        <div class="flake"></div>
+      </div>
+    </div>
+
+    <div id="clear" class="weather icon sunny">
+      <div class="sun">
+        <div class="rays"></div>
+      </div>
+    </div>
+
+    <div id="rain" class="weather icon rainy">
+      <div class="cloud"></div>
+      <div class="rain"></div>
+    </div>
+
+  </div>
+<!-- End of Icons Library -->
+  
+</body>
+</html>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/async/1.5.2/async.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

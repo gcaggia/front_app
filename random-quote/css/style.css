@@ -1,0 +1,62 @@
+body {
+  background-color: #16a085;
+}
+.btn {
+  background-color: transparent;
+}
+
+
+.float-left {
+  float:left;
+  margin-left: 20px;
+}
+
+.float-right {
+  float:right;
+  margin-right: 20px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.valign {
+  margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+
+.box-quote {
+    height: 190px;
+    min-width: 500px;
+    border-radius: 15px;
+}
+
+.btn-action {
+  position:relative;
+  top: 50px;
+}
+.btn-past {
+  position: relative;
+}
+
+.block-quote {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 80px;
+  width: 90%;
+  padding-top: 30px;
+}
+blockquote {
+  font-family: 'Dosis', sans-serif;
+  font-size: 28px;
+}
+
+.footer, .footer a {
+  color: #FFF;
+}
+
+.footer a {
+  text-decoration: none;
+}

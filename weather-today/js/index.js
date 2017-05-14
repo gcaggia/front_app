@@ -3,7 +3,7 @@ $(document).ready(main());
 var obj = {};
 
 function getIP(callback) {
-  $.getJSON('http://ipinfo.io', function(data){ 
+  $.getJSON('https://ipinfo.io', function(data){ 
     obj.IP = data;
     if (callback)
       callback();
@@ -35,14 +35,14 @@ function getWeather(callback) {
 
 function updateView() {
 
-  console.log(obj);
+  // console.log(obj);
 
   var monthNames = ["January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"
 ];
 
   var dt = new Date();
-  var strDt = (n(dt.getDay())) + 
+  var strDt = (n(dt.getDate())) + 
     ' ' + monthNames[dt.getMonth()] + ' ' + dt.getFullYear();
 
   var sunriseDt = new Date(obj.weather.sys.sunrise * 1000);

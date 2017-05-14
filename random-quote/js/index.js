@@ -45,7 +45,7 @@ function getQuoteFromAPI(flagDrop) {
     "Content-Type": "application/x-www-form-urlencoded"
   },
     success: function(response) {
-      tabQuote.push(JSON.parse(response));
+      tabQuote.push(response);
       currentQuote++;
       changeQuote(currentQuote, flagDrop);
     }
